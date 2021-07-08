@@ -7,7 +7,11 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix = "0.12.0"
 actix-web = "4.0.0-beta.6"
+pretty_env_logger = "0.4.0"
+log = "0.4.14"
 serde = "1.0.126"
-tokio = { version = "1.6.1", features = ["full"] }
 subprocess = "0.2.7"
+dashmap = "4.0.2"
+hocon = "0.5.2"
